@@ -48,6 +48,7 @@ main{
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
+    text-align: center;
     color: black;
     font-size: 0.9rem;
     position: absolute;

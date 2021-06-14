@@ -41,7 +41,7 @@ main{
     height: 450px;
     background-image: url("./images/pantumedias.jpeg");
     background-size: cover;
-    border: 10px solid #B533DE;
+    border: 10px solid #DE337D;
 }
 .text{
     display: flex;
@@ -55,7 +55,7 @@ main{
     bottom: 200px;
     width: 100%;
     height: 40px;
-    background-color: #b633ded2;
+    background-color: #de337dd0;
 }
 .text, h2 {
     font-family: 'Playfair Display', serif;
@@ -63,12 +63,12 @@ main{
 h2{
     height: 23px !important;
     margin: 30px 0 0px 0;
-    background-color: #B533DE;
+    background-color: #DE337D;
     color: black;
     font-size: 1.8rem;
     letter-spacing: 3px;
     border: 1px solid rgba(0, 0, 0, 0.199);
-    /* box-shadow: 0px 2px 10px -2px #B533DE; */
+    /* box-shadow: 0px 2px 10px -2px #DE337D; */
 }
 p{
     background-color: rgb(231, 231, 231);
@@ -91,7 +91,7 @@ p{
 .coment{
     font-family: 'Brygada 1918', serif;
     font-size: 0.9rem;
-    background-color: #DE337D;
+    background-image: linear-gradient(90deg, #DE337D 25%, #B533DE 120%);
     text-align: center;
     margin: 5px 0 30px 0;
     padding: 5px;

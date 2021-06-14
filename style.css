@@ -1,5 +1,6 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Brygada+1918:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -13,7 +14,7 @@ main{
 }
 .navbar{
     border-bottom: 1px solid rgba(0, 0, 0, 0.13);
-    background-image: linear-gradient(90deg, #DE337D 0%, #B533DE 120%);
+    background-image: linear-gradient(90deg, #DE337D 25%, #B533DE 120%);
     border-bottom: 1px solid white;
 }
 .navbar-brand{
@@ -22,6 +23,7 @@ main{
     margin: 0 0 0 0;
     letter-spacing: -1px;   
     display: flex;
+    font-family: 'Playfair Display', serif;
 }
 .hero-image{
     width: 100vw;
@@ -33,15 +35,14 @@ main{
 }
 h2{
     height: 23px !important;
-    font-family: 'Baloo Tammudu 2', cursive;
+    font-family: 'Playfair Display', serif;
     margin: 30px 0 0px 0;
     background-color: #DE337D;
-    color: white;
+    color: black;
     font-size: 1.8rem;
     letter-spacing: 3px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.199);
+    border: 1px solid rgba(0, 0, 0, 0.199);
     /* box-shadow: 0px 2px 10px -2px #B533DE; */
-    
 }
 p{
     background-color: rgb(231, 231, 231);
@@ -50,10 +51,13 @@ p{
     color: black;
     box-shadow: 0px 1px 10px -2px rgb(97, 97, 97);
 }
+.b-100{
+    border-radius: 100px;
+}
 .coment{
     font-family: 'Brygada 1918', serif;
     font-size: 0.9rem;
-    background-color: #F73496;
+    background-color: #8b1550;
     text-align: center;
     margin: 5px 0 30px 0;
     padding: 5px;
@@ -69,7 +73,7 @@ footer{
     align-items: center;
     width: 100vw;
     height: 80px;
-    background-color: #151116;
+    background-color: #2b1d2e;
 }
 footer a{
     color: white;

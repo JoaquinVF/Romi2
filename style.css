@@ -33,6 +33,9 @@ main{
     background-repeat: no-repeat;
     background-position: 0 -85px;
 }
+.about{
+    font-family: 'Brygada 1918', serif;
+}
 .pantu-container{
     position: relative;
 }
@@ -101,6 +104,21 @@ p{
     flex-direction: column;
     align-items: center;
     border-radius: 100px;
+}
+.font{
+    font-size:1.5rem;
+}
+.footer__img-container{
+    width: 30%;
+}
+.footer__img-container img{
+    position: relative;
+     left: 0px;
+}
+.footer__a-container{
+    display: flex; 
+    flex-direction: column; 
+    width: 85%;
 }
 footer{
     display: flex;

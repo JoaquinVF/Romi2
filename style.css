@@ -80,7 +80,7 @@ p{
 .separator{
     height: 23px;
     background-image: linear-gradient(90deg, #DE337D 25%, #B533DE 120%);
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.233);
 }
 .b-100{
     border-radius: 100px;
